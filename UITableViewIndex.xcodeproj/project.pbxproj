@@ -13,6 +13,9 @@
 		623389502396F3C300AA6C3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6233894E2396F3C300AA6C3B /* Main.storyboard */; };
 		623389522396F3C500AA6C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623389512396F3C500AA6C3B /* Assets.xcassets */; };
 		623389552396F3C500AA6C3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623389532396F3C500AA6C3B /* LaunchScreen.storyboard */; };
+		6233895F2396F7A400AA6C3B /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6233895E2396F7A400AA6C3B /* Cell.xib */; };
+		623389612396F8B200AA6C3B /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623389602396F8B200AA6C3B /* Cell.swift */; };
+		623389632396F99000AA6C3B /* Sgt_Peppers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 623389622396F99000AA6C3B /* Sgt_Peppers.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		623389512396F3C500AA6C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		623389542396F3C500AA6C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		623389562396F3C500AA6C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6233895E2396F7A400AA6C3B /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		623389602396F8B200AA6C3B /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		623389622396F99000AA6C3B /* Sgt_Peppers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sgt_Peppers.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +67,11 @@
 				6233894C2396F3C300AA6C3B /* ViewController.swift */,
 				6233894E2396F3C300AA6C3B /* Main.storyboard */,
 				623389512396F3C500AA6C3B /* Assets.xcassets */,
+				623389622396F99000AA6C3B /* Sgt_Peppers.jpg */,
 				623389532396F3C500AA6C3B /* LaunchScreen.storyboard */,
 				623389562396F3C500AA6C3B /* Info.plist */,
+				6233895E2396F7A400AA6C3B /* Cell.xib */,
+				623389602396F8B200AA6C3B /* Cell.swift */,
 			);
 			path = UITableViewIndex;
 			sourceTree = "<group>";
@@ -126,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				623389552396F3C500AA6C3B /* LaunchScreen.storyboard in Resources */,
+				623389632396F99000AA6C3B /* Sgt_Peppers.jpg in Resources */,
+				6233895F2396F7A400AA6C3B /* Cell.xib in Resources */,
 				623389522396F3C500AA6C3B /* Assets.xcassets in Resources */,
 				623389502396F3C300AA6C3B /* Main.storyboard in Resources */,
 			);
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6233894D2396F3C300AA6C3B /* ViewController.swift in Sources */,
+				623389612396F8B200AA6C3B /* Cell.swift in Sources */,
 				623389492396F3C300AA6C3B /* AppDelegate.swift in Sources */,
 				6233894B2396F3C300AA6C3B /* SceneDelegate.swift in Sources */,
 			);
