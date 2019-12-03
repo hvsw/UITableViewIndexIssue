@@ -71,7 +71,7 @@ extension ViewController: UITableViewDataSource {
             return UITableViewCell()
         }
         
-        cell.customLabel.text = String(repeating: "\(indexPath.row)", count: 5)
+        cell.customLabel.text = "iOS " + UIDevice.current.systemVersion + " - " + String(repeating: "\(indexPath.row)", count: 5)
         cell.customImage.image = UIImage(named: "Sgt_Peppers.jpg")
         
         return cell
